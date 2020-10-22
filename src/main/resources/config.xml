@@ -7,6 +7,7 @@
     <context:component-scan base-package="com.abubakirov.spring1task1.domain"/>
 
     <bean id="monoWheel" class="com.abubakirov.spring1task1.domain.MonoWheel">
+        <constructor-arg index="0" type="java.lang.String" value="Model 3"/>
         <property name="wheel" ref="wheel"/>
     </bean>
 

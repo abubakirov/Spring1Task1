@@ -12,6 +12,9 @@ public class Program {
         MonoWheel monoWheel = xmlContext.getBean("monoWheel", MonoWheel.class);
         monoWheel.whatAreYou();
 
+        System.out.println();
+        System.out.println();
+
         ApplicationContext javaContext = new AnnotationConfigApplicationContext(JavaConfig.class);
         MonoWheel monoWheel2 = javaContext.getBean("monoWheel", MonoWheel.class);
         monoWheel2.whatAreYou();
