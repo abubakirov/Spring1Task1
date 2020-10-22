@@ -24,5 +24,6 @@ public class Program {
 
         MonoWheel monoWheel3 = javaContext.getBean("monoWheel", MonoWheel.class);
         monoWheel3.whatAreYou();
+
     }
 }
